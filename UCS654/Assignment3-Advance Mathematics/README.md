@@ -1,12 +1,3 @@
-Methodology
-- Roll-Number-Parameterized Transformation
- The transformation equation:
-
-Resulting Equation: 
-
--PDF Modeling & EstimationThe distribution of 
-
-Results$\mu$25.96639$\lambda$0.00146037$c$0.02156037
 
 ## Methodology
 
@@ -27,7 +18,7 @@ $z = x + 0.1 \cdot \arcsin(0.9x)$
 
 ### PDF Modeling & Estimation
 
-$z$ is:$ $\hat{p}(z) = c \cdot e^{-\lambda (z - \mu)^2}$ $
+$z$ is: $$\hat{p}(z) = c \cdot e^{-\lambda (z - \mu)^2}$$
 
 
 **Parameters Calculation:**
