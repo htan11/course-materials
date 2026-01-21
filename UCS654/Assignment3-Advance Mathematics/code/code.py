@@ -1,9 +1,5 @@
 import pandas as pd
 import numpy as np
-import zipfile
-
-with zipfile.ZipFile("dataset.zip") as z:
-    z.extractall()
 
 df = pd.read_csv("data.csv", encoding="latin1")
 x = df["no2"].dropna().values
