@@ -37,6 +37,10 @@ Mean ($\mu$): $\mathbb{E}[z]$ Lambda ($\lambda$): $\frac{1}{2\sigma^2}$ Normaliz
 | $c$ | 0.02156037 |
 
 
+##Link
+https://colab.research.google.com/drive/1FcNhiWMob5Fxk_wx4winIm3781uv9uDM?usp=sharing
+
+
 
 
 
