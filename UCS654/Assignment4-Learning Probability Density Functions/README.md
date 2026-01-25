@@ -30,7 +30,7 @@ The probability density function of the transformed variable $$z$$ is assumed to
 
 The generator maps random noise sampled from a standard normal distribution to synthetic samples of $$z$$, while the discriminator attempts to distinguish between real and generated samples. Through adversarial training, the generator learns to approximate the true data distribution.
 
-![Plot Description](UCS654/Assignment4-Learning%20Probability%20Density%20Functions/code/plot.png)
+![image alt](https://github.com/htan11/course-materials/blob/main/UCS654/Assignment4-Learning%20Probability%20Density%20Functions/code/plot.png?raw=true)
 
 ---
 
