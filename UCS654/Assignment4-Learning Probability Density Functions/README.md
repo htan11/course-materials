@@ -38,3 +38,7 @@ The generator maps random noise sampled from a standard normal distribution to s
 
 After training, a large number of samples are generated from the generator. These samples are used to estimate the probability density function $$(\hat{p}_h(z)\)$$ using Kernel Density Estimation (KDE). The resulting density represents the GAN-learned approximation of the unknown PDF.
 
+---
+
+### Link
+https://colab.research.google.com/drive/1NhQE3VfVM9l3uR6aOvV83NACi4-Z8M1z?usp=sharing
