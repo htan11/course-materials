@@ -4,14 +4,13 @@
 
 The original feature \(x\) (NO₂ concentration) is transformed into a new variable \(z\) using a roll-number-dependent non-linear function:
 
-\[
-z = T_r(x) = x + a_r \cdot \arcsin(b_r x)
-\]
+
+$$z = T_r(x) = x + a_r \cdot \arcsin(b_r x)$$
 
 where the parameters are defined as:
-\[
-a_r = 0.5 \times (r \bmod 7), \quad b_r = 0.3 \times (r \bmod 5 + 1)
-\]
+
+$$a_r = 0.5 \times (r \bmod 7), \quad b_r = 0.3 \times (r \bmod 5 + 1)$$
+
 
 For roll number **102303812**, the values are:
 \[
