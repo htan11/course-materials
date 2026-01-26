@@ -14,7 +14,7 @@ $$a_r = 0.5 \times (r \bmod 7), \quad b_r = 0.3 \times (r \bmod 5 + 1)$$
 
 For roll number **102303812**, the values are:
 
-$$a_r = 1.0,\quad b_r = 0.9$$
+$$a_r = 1.0,\quad b_r = 0.8999$$
 
 Resulting transformation:
 
