@@ -32,7 +32,7 @@ pip install pandas numpy
 
 ## Installation
 
-### From PyPI (if published)
+### From PyPI 
 
 ```bash
 pip install 102303812-topsis
@@ -156,6 +156,11 @@ assignment1_DS-main/
 │   └── topsis.py         # TOPSIS implementation
 └── LICENSE
 ```
+## Google Colab Link
+https://colab.research.google.com/drive/1hFhuzNVxJ53LJTjMrJsID8C_r-0W3Nya?usp=sharing
+
+## Find this package on pypi.org
+https://pypi.org/project/102303812-topsis/
 
 ---
 
