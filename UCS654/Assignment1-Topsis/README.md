@@ -151,7 +151,7 @@ assignment1_DS-main/
 ├── README.md
 ├── setup.py
 ├── data.csv              # Sample input
-├── 102303812-topsis/
+├── Topsis_HarshTanwar_102303812/
 │   ├── __init__.py
 │   └── topsis.py         # TOPSIS implementation
 └── LICENSE
