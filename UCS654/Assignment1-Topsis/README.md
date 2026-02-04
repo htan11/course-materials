@@ -161,6 +161,8 @@ https://colab.research.google.com/drive/1hFhuzNVxJ53LJTjMrJsID8C_r-0W3Nya?usp=sh
 
 ## Find this package on pypi.org
 https://pypi.org/project/102303812-topsis/
+or
+https://pypi.org/project/Topsis-HarshTanwar-102303812/
 
 ---
 
