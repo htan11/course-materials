@@ -1,7 +1,7 @@
 # TOPSIS for Text Classification Model Selection
 
 ## Assignment Details
-- **Student Name**: Harsh Tanwar
+- **Name**: Harsh Tanwar
 - **Roll Number**: 102303812
 - **Task**: Text Classification Model Selection using TOPSIS
 
@@ -169,16 +169,6 @@ The `Topsis` class in `topsis.py` implements the complete TOPSIS algorithm:
 3. **Ideal Solutions**: Calculation of PIS and NIS based on impact directions
 4. **Separation Measures**: Euclidean distance calculations
 5. **Score Computation**: Final TOPSIS score calculation
-
-## References
-
-- Hwang, C.L.; Yoon, K. (1981). *Multiple Attribute Decision Making: Methods and Applications*
-- Vaswani et al. (2017). *Attention Is All You Need*
-- Devlin et al. (2018). *BERT: Pre-training of Deep Bidirectional Transformers*
-- Sanh et al. (2019). *DistilBERT, a distilled version of BERT*
-- Liu et al. (2019). *RoBERTa: A Robustly Optimized BERT Pretraining Approach*
-- Yang et al. (2019). *XLNet: Generalized Autoregressive Pretraining*
-- Lan et al. (2019). *ALBERT: A Lite BERT for Self-supervised Learning*
 
 ## License
 
