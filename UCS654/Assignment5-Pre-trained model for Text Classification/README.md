@@ -135,7 +135,7 @@ This analysis compares five state-of-the-art transformer-based models:
 
 ### Prerequisites
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn topsis
 ```
 
 ### Execution
