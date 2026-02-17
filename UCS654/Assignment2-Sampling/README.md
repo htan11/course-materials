@@ -151,6 +151,9 @@ Run the script using the following command:
 ```bash
 python sampling102303812.py
 ```
+## Link
+
+https://colab.research.google.com/drive/1jDktRpZ-DB79IZO6hGXXNMHeIbqD36Sy?usp=sharing
 
 ## Output
 
