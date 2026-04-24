@@ -89,6 +89,11 @@ Random Forest outperformed all other models due to its ability to handle non-lin
 
 ---
 
+## 8. Colab Link
+https://colab.research.google.com/drive/1HPOwsi-AMsPwf49ElIZptOfiGYAvpuwn?usp=sharing
+
+---
+
 ## Tools & Technologies
 - Python  
 - Pandas  
