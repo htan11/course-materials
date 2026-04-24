@@ -89,7 +89,7 @@ Random Forest outperformed all other models due to its ability to handle non-lin
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - Python  
 - Pandas  
 - Scikit-learn  
