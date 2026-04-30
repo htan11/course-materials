@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashup Creator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mashup Creator</h1>
+        <form id="mashupForm">
+            <label for="singer-name">Singer Name:</label>
+            <input type="text" id="singer-name" name="singer-name" required>
+
+            <label for="num-videos">Number of Videos (in range 10-50):</label>
+            <input type="number" id="num-videos" name="num-videos" min="10" max="50" required>
+
+            <label for="video-duration">Duration of Each Video (in seconds):</label>
+            <input type="number" id="video-duration" name="video-duration" min="1" max="500" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Create Mashup</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+    <script>
+        document.getElementById('mashupForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var formData = new FormData(this);
+            
+            // Log form data for debugging
+            for (var pair of formData.entries()) {
+                console.log(pair[0] + ': ' + pair[1]);
+            }
+
+            fetch('/create_mashup', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('message').textContent = data.message;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('message').textContent = 'An error occurred. Please try again.';
+            });
+        });
+    </script>
+</body>
+</html>
